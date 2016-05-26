@@ -1,0 +1,8 @@
+language: android
+
+script: "./gradlew build"
+
+env:
+  - TERM=dumb
+
+sudo: false
